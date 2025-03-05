@@ -1,15 +1,15 @@
 # Guess a number between 1 and 10
 import random
-import math
 
 print("-: Number Guessing Game :-")
 
-rand_number = math.floor(random.random() * 10)
+rand_number = random.randint(1, 10)
+
 NUM_OF_CHANCES = 3
 
 counter = 1
 
-status = "Alash! you didn't guess the number!"
+status = "Alash! you failed to guess the number!"
 
 print("(you have only 3 chances to guess the correct number)")
 while counter <= NUM_OF_CHANCES:
@@ -23,7 +23,7 @@ while counter <= NUM_OF_CHANCES:
         status = "you crossed the maximum limit of valid chances!"
         break
     if guess == rand_number:
-        status = "Hurray! you guessed the number accurately"
+        status = "Hurray! you guessed the number correctly"
         break
     else:
         print(
