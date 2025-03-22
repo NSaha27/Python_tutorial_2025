@@ -3,7 +3,7 @@
   ----------------------------
   working: This method returns the first position(index) of a string where the given sub-string(here 'value') is found.
   return: This method returns an integer(the index)
-  points: (i) We can pass optional parameters i.e. start and end, to specify from where to start searching and at which position to end searching.
+  points: (i) We can pass optional parameters i.e. start and end, to specify from where to start search and at which position to end search.
 """
 
 str1 = "Hello and welcome to the world's best Python course. Python is a general purpose, interpreted, dynamically typed, platform independant, object oriented programming langauge used in data science, data visualization, web development, web scrapping, machine learning, artificial intelligence etc. Python supports both procedural and object-oriented way of programming."
